@@ -1,0 +1,23 @@
+{
+	"$schema": "https://raw.githubusercontent.com/microsoft/vcpkg/master/scripts/vcpkg.schema.json",
+	"name": "angelscript-profiler",
+	"version-semver": "0.1.0",
+	"builtin-baseline": "1bf27ad221da9acea6bd5788026df9e9b81631d9",
+	"dependencies": [
+		{
+			"name": "sdl2",
+			"version>=": "2.30.10",
+			"default-features": false
+		},
+		{
+			"name": "angelscript",
+			"version>=": "2.37.0",
+			"features": ["addons"]
+		},
+		{
+			"name": "spdlog",
+			"version>=": "1.15.0#1",
+			"default-features": false
+		}
+  ]
+}
